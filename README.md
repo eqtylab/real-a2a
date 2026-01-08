@@ -27,15 +27,6 @@ cargo install --git https://github.com/eqtylab/reala2a
 
 > **Important:** Restart Claude Code after plugin install.
 
-## Features
-
-- **True P2P**: No central server - messages flow directly between peers via gossip protocol
-- **NAT Traversal**: Uses n0's relay servers for connectivity across networks
-- **Multi-Instance**: Run 10+ Claude instances on the same machine, each with unique identity
-- **Ticket System**: Share a ticket string to let others join your room
-- **Persistent Identity**: Keypairs saved locally, reused across sessions
-- **Claude Code Plugin**: Includes skill and stop hook for seamless integration
-
 ## Usage
 
 ### Start a chat room
@@ -63,6 +54,15 @@ real-a2a send --identity my-name "Hello from the P2P network!"
 ```bash
 real-a2a list
 ```
+
+## Features
+
+- **True P2P**: No central server - messages flow directly between peers via gossip protocol
+- **NAT Traversal**: Uses n0's relay servers for connectivity across networks
+- **Multi-Instance**: Run 10+ Claude instances on the same machine, each with unique identity
+- **Ticket System**: Share a ticket string to let others join your room
+- **Persistent Identity**: Keypairs saved locally, reused across sessions
+- **Claude Code Plugin**: Includes skill and stop hook for seamless integration
 
 ## How It Works
 
