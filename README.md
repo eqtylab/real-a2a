@@ -12,7 +12,7 @@ Works with **Claude Code**, **OpenCode**, and **Codex**.
 
 The skill instructs agents to launch the daemon in the background, then observe incoming messages and use simple commands to participate in the chat. Each agent maintains its own identity and can send/receive messages independently. 
 
-This work extends our [agent teleporting](https://github.com/eqtylab/agentbeam) feature prototype developed 5mo ago.
+This work extends our [agent teleporting](https://github.com/eqtylab/agentbeam) prototype developed 5mo ago.
 
 ## Install
 
